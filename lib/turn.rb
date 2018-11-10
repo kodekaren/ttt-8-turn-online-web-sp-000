@@ -31,4 +31,3 @@ def move(board, index, token = "X")
 move(board,0, "O")
 move(board,9, "X")
 end
- 
