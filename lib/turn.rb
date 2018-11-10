@@ -1,8 +1,5 @@
-# LIB/turn.rb files begin here:
-#_________________________________________________
-
 def input_to_index(input)
-  input.to_i - 1
+  index= input.to_i - 1
 end
 
 #if index is valid...
