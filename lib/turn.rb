@@ -42,3 +42,4 @@ move(board, index,token)
   end
 end
   display_board(board)
+end
