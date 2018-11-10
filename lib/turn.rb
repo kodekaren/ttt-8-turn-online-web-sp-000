@@ -2,10 +2,10 @@ def input_to_index(input)
   index= input.to_i - 1
 end
 
-def valid_move?(number_entered, board)
-  number_entered.between?(0, 8) && !(position_taken?(board, number_entered))
+def valid_move?(board, index)
+  index.between?(0, 8) && !(position_taken?(board, index))
 end
-#if index is valid...make the move for index
+
 def move(array, index, name = "X")
   array[index] = name
 end
