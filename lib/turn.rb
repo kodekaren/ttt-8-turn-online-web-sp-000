@@ -2,7 +2,6 @@ def input_to_index(input)
   index= input.to_i - 1
 end
 
-#if index is valid...
 def valid_move?(number_entered, board)
   number_entered.between?(0, 8) && !(position_taken?(board, number_entered))
 end
