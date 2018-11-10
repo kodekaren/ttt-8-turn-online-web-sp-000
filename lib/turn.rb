@@ -36,7 +36,7 @@ def turn(board)
  index = input_to_index(input)
   if
 valid_move? == true
-
+move(board, index,token)
   else
     turn(board)
   end
