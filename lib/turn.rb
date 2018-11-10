@@ -8,6 +8,7 @@ end
 
 def move(board, index, token = "X")
   board[index] = token
+  display_board(board)
 end
 #if index is valid...show the board
 def position_taken?(board, answer)
