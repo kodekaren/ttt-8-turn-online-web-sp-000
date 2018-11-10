@@ -28,7 +28,6 @@ end
 
 def move(board, index, token = "X")
   board[index] == token
-end
 move(board,0, "O")
 move(board,9, "X")
 display_board(board)
