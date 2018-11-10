@@ -29,6 +29,5 @@ end
 def move(board, index, token = "X")
 board[index] == token
 move(board,0, "O")
-move(board,9,"X")
+move(board,9, "X")
 end
- 
