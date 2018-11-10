@@ -40,4 +40,5 @@ valid_move? == true
   else
     turn(board)
   end
+end
   display_board(board)
