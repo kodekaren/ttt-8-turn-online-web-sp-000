@@ -32,3 +32,4 @@ move(board,0, "O")
 move(board,9, "X")
 display_board(board)
 end
+end
