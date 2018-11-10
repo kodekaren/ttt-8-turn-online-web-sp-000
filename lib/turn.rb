@@ -11,8 +11,17 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-    if index.between?(0,8) && index != ("X" && "O")
+    if position_taken?(board, index) == false && index.between?(0, 8)
+      return true
+    else
       return false
-    else return true
+end
+end# code your #valid_move? method here
+
+def position_taken?(board, index)
+  if board[index] == "X" || board[index] == "O"
+    return true
+  else
+    return false
   end
 end
