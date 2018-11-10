@@ -27,8 +27,7 @@ def position_taken?(board, index)
 end
 
 def move(board, index, token = "X")
-if valid move== true
-  index == token
+  board[index] == token
 end
 move(board,0, "O")
 move(board,9, "X")
